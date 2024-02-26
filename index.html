@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./libs/bootstrap.min.css">
+    <title>Página Bootstrap</title>
+    <style>
+        .card{
+            background-color: rgba(0, 0, 0, 0.9);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Carrosel -->
+        <div id="carrosel-imagens" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Imagens do carrosel -->
+                <div data-bs-interval="2000" class="carousel-item active">
+                    <img src="./imagens/animal-8420313_1920.jpg" class="d-block w-100">
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img src="./imagens/boat-8483163_1920.jpg" class="d-block w-100">
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img src="./imagens/mountains-8573646_1920.jpg" class="d-block w-100">
+                </div>
+            </div>
+        </div>
+
+            <!-- Botões de Next e Previous -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrosel-imagens" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrosel-imagens" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+            <!-- ----------------------------------- -->
+            
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mt-4 mb-4">
+                <article class="card">
+                    <header class="card-header">
+                        Florianópolis
+                    </header>
+                    <img src="./imagens/ocean-1867285_1920.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Melhores praias de Florianópolis</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque mollitia magnam sint libero, optio nesciunt nihil deleniti assumenda! Inventore sit tenetur</p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Publicado em <strong>26/02/2024</strong>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-4 mb-4">
+                <article class="card">
+                    <header class="card-header">
+                        São Paulo
+                    </header>
+                    <img src="./imagens/highway-7213206_1920.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Novidades no trânsito da capital paulista</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, hic sit. Temporibus, perspiciatis. Nostrum maiores impedit aspernatur, optio officia et dolore</p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Editado em <strong>22/02/2024</strong>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-4 mb-4">
+                <article class="card">
+                    <header class="card-header">
+                        Mundo
+                    </header>
+                    <img src="./imagens/woman-2594934_1920.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Melhores destinos para 2024</h4>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, itaque. Quos quis atque aliquid molestiae. Neque, impedit natus voluptate nisi officiis</p>
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Editado em <strong>21/02/2024</strong>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+    <script src="./libs/bootstrap.bundle.min.js"></script>
+</body>
+</html>
